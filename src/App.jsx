@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <header>
         <h1>
-          Videos
+           Art Videos
         </h1>
       </header>
       {

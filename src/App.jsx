@@ -21,6 +21,18 @@ function App() {
           Videos
         </h1>
       </header>
+      {
+        data.map(video=>(
+           <div key={video.id}>
+             <h2>
+               {video.name}
+             </h2>
+             <video width="" height={200} controls src={video.video_url}>
+               
+             </video>
+           </div>
+        ))
+      }
     </div>
   );
 }
